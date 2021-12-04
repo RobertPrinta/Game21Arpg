@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{d20a7b99-f17c-4c58-a8b0-79f4fccbb25c}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Unity Files/game21-2021-1129-arpg-team-3/Assets/StreamingAssets</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{a078ed1c-d25e-42da-abd2-cbc2137cb030}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{f15890b9-85d3-46a8-89e8-f474caceaedc}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{e771ddd6-848c-4a36-9c5b-bfcc849b7670}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{ec32d6f0-fae6-4b58-8193-fa1f236d8294}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{d7784641-d6a6-49d0-a861-8eae875ce94b}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{fc653d07-96c7-4e44-ab80-0a564cf0c93d}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{b29c4fe4-893c-4389-ad61-d3fe0448cb50}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{4cc155f4-d19c-4984-ad74-d9655ae37286}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{9a66faf9-485a-446e-8163-a6e5059b7b73}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{f96a9b17-ec6e-4051-9d81-708fae17569b}</destination>
+		</relationship>
+	</object>
+</objects>

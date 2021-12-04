@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{713ef4ea-8c68-4ce2-939a-690ecf9b7f7b}">
+		<property name="assetPath">
+			<value>Player/Foot/Demo/softfoot2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b29c4fe4-893c-4389-ad61-d3fe0448cb50}</destination>
+		</relationship>
+	</object>
+</objects>
