@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a7d8ac3a-6ebf-4997-bf26-e2e80eb9f26f}">
 		<property name="assetPath">
-			<value>Items/PotionPickUp.wav</value>
+			<value>Items/PotionUse.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
