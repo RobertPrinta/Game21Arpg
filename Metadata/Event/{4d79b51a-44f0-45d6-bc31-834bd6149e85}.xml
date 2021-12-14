@@ -153,7 +153,7 @@
 			<value>-4.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Bass</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{97454283-f7bb-4a06-a2ac-2c40bd56b9ea}</destination>
@@ -187,7 +187,7 @@
 			<value>-0.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 2</value>
+			<value>Cords</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6ca6c76f-bc56-42a0-be73-5303746d16f4}</destination>
@@ -221,7 +221,7 @@
 			<value>-4.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 3</value>
+			<value>Hi</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1b79f2a0-0b82-437a-9d8a-c13866347549}</destination>
@@ -237,8 +237,13 @@
 		<property name="length">
 			<value>100</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{e5958c2a-7df2-4310-8298-ed34f5e3076e}</destination>
+			<destination>{d4b00084-260a-460f-9488-2f9f738235b7}</destination>
+			<destination>{6bf09904-3824-4f1d-a876-c70bd6439efb}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4f34e27c-fa20-4308-aa3f-d091fe6427c2}">
@@ -346,6 +351,8 @@
 			<destination>{632c7683-2758-42f4-b425-c3e34a855869}</destination>
 		</relationship>
 	</object>
+	<object class="SilenceSound" id="{d4b00084-260a-460f-9488-2f9f738235b7}" />
+	<object class="SilenceSound" id="{6bf09904-3824-4f1d-a876-c70bd6439efb}" />
 	<object class="MixerBusEffectChain" id="{7453b03f-62a9-404b-bbd3-6d25330da4ee}">
 		<relationship name="effects">
 			<destination>{7f81787a-5df6-46da-ac26-f347f67b9bd8}</destination>
