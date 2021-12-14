@@ -158,7 +158,7 @@
 			<value>6.5999999</value>
 		</property>
 		<property name="ceiling">
-			<value>-1.20000005</value>
+			<value>-1.60000002</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c5b41fe3-cf05-44e6-8942-efba945aa16e}" />
