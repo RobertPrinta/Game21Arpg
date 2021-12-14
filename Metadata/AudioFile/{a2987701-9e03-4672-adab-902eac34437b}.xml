@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a2987701-9e03-4672-adab-902eac34437b}">
+		<property name="assetPath">
+			<value>Folie/Door2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.0362916666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b29c4fe4-893c-4389-ad61-d3fe0448cb50}</destination>
+		</relationship>
+	</object>
+</objects>
