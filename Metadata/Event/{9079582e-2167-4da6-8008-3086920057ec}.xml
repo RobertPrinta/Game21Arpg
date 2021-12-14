@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9079582e-2167-4da6-8008-3086920057ec}">
 		<property name="name">
-			<value>DoorOpen</value>
+			<value>OpenDoorLarge</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -80,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{150e6d99-c406-48d4-81a3-4ef06821c0b4}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b6b13efd-63e9-46ce-a1f5-3dda9435c1a2}</destination>
 		</relationship>
@@ -92,7 +95,6 @@
 	</object>
 	<object class="MultiSound" id="{d6f6ebeb-63a0-4083-a620-756b8e94d188}">
 		<relationship name="sounds">
-			<destination>{70336b09-584c-4582-9d52-3c5938901986}</destination>
 			<destination>{d5194e9b-ebbb-415c-a3fd-8cce4f054f07}</destination>
 		</relationship>
 	</object>
@@ -122,14 +124,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2693dc7b-035a-4977-938c-3b38338dcd3f}" />
-	<object class="SingleSound" id="{70336b09-584c-4582-9d52-3c5938901986}">
-		<relationship name="audioFile">
-			<destination>{02b6ff2b-9894-4e5f-a480-c0b97bef9154}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{d5194e9b-ebbb-415c-a3fd-8cce4f054f07}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-10</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{a2987701-9e03-4672-adab-902eac34437b}</destination>
