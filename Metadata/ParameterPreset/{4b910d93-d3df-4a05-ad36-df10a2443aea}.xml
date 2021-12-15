@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4b910d93-d3df-4a05-ad36-df10a2443aea}">
+		<property name="name">
+			<value>FoogAmount</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e5b7a1c8-215c-4d80-8ec0-15157ff04604}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d31b0ff5-bae7-4d5c-855c-aa0fc7c75303}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d31b0ff5-bae7-4d5c-855c-aa0fc7c75303}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
