@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3fcde51c-7772-4464-a437-3fdecf9cf1f4}">
+		<property name="name">
+			<value>How Far To Enemy</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ec32d6f0-fae6-4b58-8193-fa1f236d8294}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5cf49919-5f6f-4b14-9c78-a88b3f11ae3d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5cf49919-5f6f-4b14-9c78-a88b3f11ae3d}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
