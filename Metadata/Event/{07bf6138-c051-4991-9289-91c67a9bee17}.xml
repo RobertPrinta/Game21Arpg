@@ -92,7 +92,7 @@
 	</object>
 	<object class="MultiSound" id="{d7c13176-d2a1-4f84-92c2-f7a6c664b5ed}">
 		<relationship name="sounds">
-			<destination>{9f7981f1-bb19-4c12-846d-08a3fca35a31}</destination>
+			<destination>{1ab2e0b2-3544-4b22-b15d-c256339af68a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{4fee1778-425d-4127-811d-285e1d738bec}">
@@ -117,18 +117,14 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{91e932ca-6d28-45a2-bffa-ff771839f38c}">
 		<relationship name="effects">
-			<destination>{60d2a368-7278-412b-a1ad-714ca43dc252}</destination>
-			<destination>{4898f890-a871-4489-8ad9-f7c6d24940d7}</destination>
+			<destination>{7b2edf7c-5b72-4f88-921f-a5e6fbd327bd}</destination>
 			<destination>{441e49f5-b874-4016-ab02-50e7cacd5c32}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e1f51f8b-6fab-4029-a0c8-0659f0ca57e1}" />
-	<object class="SingleSound" id="{9f7981f1-bb19-4c12-846d-08a3fca35a31}">
-		<property name="pitch">
-			<value>-8</value>
-		</property>
+	<object class="SingleSound" id="{1ab2e0b2-3544-4b22-b15d-c256339af68a}">
 		<relationship name="audioFile">
-			<destination>{704806c3-3953-4fcd-8fd1-cd3afdb9c35e}</destination>
+			<destination>{f7a6acc4-3b84-48ee-ad2b-13e3e1c41c4f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a96cffaa-48ca-487f-8847-9ad6cf039855}" />
@@ -138,20 +134,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{922df22e-3386-4e08-b453-4a3f83730f36}" />
-	<object class="ThreeEQEffect" id="{60d2a368-7278-412b-a1ad-714ca43dc252}">
-		<property name="lowGain">
-			<value>-80</value>
+	<object class="ChorusEffect" id="{7b2edf7c-5b72-4f88-921f-a5e6fbd327bd}">
+		<property name="rate">
+			<value>0.140000001</value>
 		</property>
-		<property name="highGain">
-			<value>-4</value>
-		</property>
-		<property name="lowCrossover">
-			<value>90</value>
-		</property>
-	</object>
-	<object class="DelayEffect" id="{4898f890-a871-4489-8ad9-f7c6d24940d7}">
-		<property name="delay">
-			<value>1000</value>
+		<property name="depth">
+			<value>19.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{441e49f5-b874-4016-ab02-50e7cacd5c32}" />
