@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1193abd7-f9d8-4ef6-88c4-00430cf80335}">
 		<property name="name">
-			<value>PlayerLevel</value>
+			<value>PlayerLevelUp</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
