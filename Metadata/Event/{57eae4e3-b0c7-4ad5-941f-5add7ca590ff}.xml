@@ -128,6 +128,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{82dd1fe2-c761-49c7-9b82-797347e627ad}" />
 	<object class="SingleSound" id="{6f28a47d-0f55-47a7-a725-e251941fe148}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{76243724-7cb2-4c3e-9b74-d9cb297bd300}</destination>
 		</relationship>
@@ -141,7 +144,7 @@
 	<object class="MixerBusPanner" id="{49faa96e-a65f-424e-aff9-5d516735080f}" />
 	<object class="LimiterEffect" id="{669379f1-ab5c-4cf9-9290-0f16f195c8b3}">
 		<property name="boost">
-			<value>4.0999999</value>
+			<value>6.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{021ebdc6-cf96-4a4d-b712-3cc811311a5b}" />

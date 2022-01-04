@@ -162,7 +162,7 @@
 			<value>440</value>
 		</property>
 		<property name="gain">
-			<value>-7.5</value>
+			<value>-1.5</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{05a7dfc5-db61-4668-9ff6-397fd20568fb}">
