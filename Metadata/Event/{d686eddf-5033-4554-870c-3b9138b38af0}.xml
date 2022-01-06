@@ -187,6 +187,9 @@
 		<property name="releaseTime">
 			<value>70</value>
 		</property>
+		<property name="gain">
+			<value>5.5</value>
+		</property>
 	</object>
 	<object class="SingleSound" id="{60f5a6cb-461f-455b-94aa-51eda7b85d09}">
 		<relationship name="audioFile">
