@@ -126,6 +126,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{fbb0e2dd-6678-4c58-8acb-d5f126e6cbc1}" />
 	<object class="MultiSound" id="{05e61812-124c-4139-8106-cba1bd138144}">
+		<property name="name" />
+		<relationship name="modulators">
+			<destination>{586ad67b-2ea3-4789-87e3-4e1807fdb575}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{60f5a6cb-461f-455b-94aa-51eda7b85d09}</destination>
 			<destination>{8d20375e-4845-4421-9969-8905239c15e6}</destination>
@@ -179,16 +183,27 @@
 	<object class="MixerBusFader" id="{1ef2cd87-ef59-440b-beb6-3995be3def5f}" />
 	<object class="CompressorEffect" id="{7e73596a-764a-4e4f-84e4-deb1e960ac3a}">
 		<property name="threshold">
-			<value>-40</value>
+			<value>-34</value>
+		</property>
+		<property name="ratio">
+			<value>4.5999999</value>
 		</property>
 		<property name="attackTime">
-			<value>0.850000024</value>
+			<value>0.150000006</value>
 		</property>
 		<property name="releaseTime">
-			<value>70</value>
+			<value>54</value>
 		</property>
 		<property name="gain">
-			<value>5.5</value>
+			<value>8.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{586ad67b-2ea3-4789-87e3-4e1807fdb575}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>11</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{60f5a6cb-461f-455b-94aa-51eda7b85d09}">

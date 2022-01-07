@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{6339556e-c4b6-45bb-ab65-225554b785c9}">
+		<property name="name">
+			<value>Musik</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2466712c-d096-47f6-9c2e-13c6c88e40ac}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e5ede2c3-165d-4808-8071-5e3f0f2d26a0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{38bedefa-05eb-4f52-b430-e8f5e408112c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2466712c-d096-47f6-9c2e-13c6c88e40ac}">
+		<relationship name="effects">
+			<destination>{33df4528-7a98-46ca-8911-9b29f4e1e4f7}</destination>
+			<destination>{c91e61cb-d04c-4ad0-9ada-331e44c91aa2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e5ede2c3-165d-4808-8071-5e3f0f2d26a0}" />
+	<object class="CompressorEffect" id="{33df4528-7a98-46ca-8911-9b29f4e1e4f7}">
+		<property name="threshold">
+			<value>-11</value>
+		</property>
+		<property name="attackTime">
+			<value>8.80000019</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{eedd4b43-d430-4a76-976c-81a901e97ac0}</destination>
+			<destination>{5e850a25-159c-4b15-bf3d-40b6f4c6da63}</destination>
+			<destination>{afb960ab-6f3b-4e6d-a847-716a7d19b423}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{c91e61cb-d04c-4ad0-9ada-331e44c91aa2}" />
+</objects>
