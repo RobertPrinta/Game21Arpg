@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{d51468f5-57ef-431f-a09b-d9c9a631f6c3}">
+		<property name="assetPath">
+			<value>Vox/death counter/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b29c4fe4-893c-4389-ad61-d3fe0448cb50}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -208,6 +208,9 @@
 		<property name="length">
 			<value>100</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{c691838c-7335-472d-86b3-aca4be958af9}</destination>
 		</relationship>
@@ -237,6 +240,9 @@
 	<object class="SingleSound" id="{941cc1b6-acf0-4121-9eb7-409a6367cca7}">
 		<property name="length">
 			<value>100</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{d44978a0-daba-4581-9ce8-ee375769d643}</destination>
@@ -268,6 +274,9 @@
 		<property name="length">
 			<value>100</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{f58ab376-21e8-49de-b171-484a7e0e330e}</destination>
 		</relationship>
@@ -297,6 +306,9 @@
 	<object class="MultiSound" id="{d3c91b2c-fe69-4ab8-9705-48d6fc1959a5}">
 		<property name="length">
 			<value>100</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{035d6511-df99-422f-ad0f-72135242e052}</destination>
@@ -329,6 +341,9 @@
 		<property name="length">
 			<value>100</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{f3a7a6fa-5165-4ff8-94b9-61718be2da27}</destination>
 		</relationship>
@@ -358,6 +373,9 @@
 	<object class="SingleSound" id="{d9df548c-3b92-498a-9ba3-281fd1f8b096}">
 		<property name="length">
 			<value>100</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{f7ca44d0-fefd-4c1b-b3e8-27fcbe2e659b}</destination>
@@ -389,6 +407,9 @@
 		<property name="length">
 			<value>100</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ba9a44e1-541e-42cc-a546-ac5fa190c9a3}</destination>
 		</relationship>
@@ -418,6 +439,9 @@
 	<object class="SingleSound" id="{a3ec3a2b-17e7-4762-92e7-ff0b91b14ab5}">
 		<property name="length">
 			<value>100</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{49063c86-d7a0-4462-8206-b692b310a05d}</destination>
