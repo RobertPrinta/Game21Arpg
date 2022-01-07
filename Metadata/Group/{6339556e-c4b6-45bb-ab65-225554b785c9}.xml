@@ -28,6 +28,9 @@
 		<property name="attackTime">
 			<value>8.80000019</value>
 		</property>
+		<property name="releaseTime">
+			<value>400</value>
+		</property>
 		<relationship name="sidechains">
 			<destination>{eedd4b43-d430-4a76-976c-81a901e97ac0}</destination>
 			<destination>{5e850a25-159c-4b15-bf3d-40b6f4c6da63}</destination>
