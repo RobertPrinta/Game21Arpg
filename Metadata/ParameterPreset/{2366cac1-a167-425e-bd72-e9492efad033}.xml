@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{e215b4eb-5f91-4b3c-a499-05b4abf53709}">
+	<object class="ParameterPreset" id="{2366cac1-a167-425e-bd72-e9492efad033}">
 		<property name="name">
-			<value>Hp</value>
+			<value>Distance To Boss</value>
 		</property>
 		<relationship name="folder">
-			<destination>{e5b7a1c8-215c-4d80-8ec0-15157ff04604}</destination>
+			<destination>{ec32d6f0-fae6-4b58-8193-fa1f236d8294}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{6d8f3ebc-2073-43fe-8b4b-896d99729c84}</destination>
+			<destination>{1c8057e9-673e-4309-af64-01787426cf0b}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{6d8f3ebc-2073-43fe-8b4b-896d99729c84}">
-		<property name="maximum">
-			<value>100</value>
+	<object class="GameParameter" id="{1c8057e9-673e-4309-af64-01787426cf0b}">
+		<property name="parameterType">
+			<value>3</value>
 		</property>
-		<property name="isGlobal">
-			<value>true</value>
+		<property name="maximum">
+			<value>40</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
