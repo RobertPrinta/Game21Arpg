@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{e718d104-a6b7-454c-83c3-37a40180bdf2}">
+	<object class="AudioFile" id="{84a13561-48d2-43d8-a647-d089a7fa10c1}">
 		<property name="assetPath">
-			<value>Folie/FireCirkel.wav</value>
+			<value>Boss/BossCircles.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>4.9687708333333331</value>
+			<value>5.5898750000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b29c4fe4-893c-4389-ad61-d3fe0448cb50}</destination>
