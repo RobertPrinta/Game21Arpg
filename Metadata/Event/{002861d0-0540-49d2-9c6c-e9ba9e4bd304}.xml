@@ -427,7 +427,6 @@
 		<property name="length">
 			<value>40</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>10</value>
 		</property>
@@ -544,6 +543,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{35daab16-5601-4abc-bd10-056e5d4def67}">
 		<relationship name="effects">
+			<destination>{7f67dc5d-e871-4eb5-b1f5-1c25fc6070c0}</destination>
 			<destination>{407a1108-b36b-439e-9e20-e42420fbb63f}</destination>
 		</relationship>
 	</object>
@@ -684,6 +684,7 @@
 			<destination>{0e3c2166-474e-4b3f-8ea1-3f836f68d73a}</destination>
 		</relationship>
 	</object>
+	<object class="CompressorEffect" id="{7f67dc5d-e871-4eb5-b1f5-1c25fc6070c0}" />
 	<object class="MixerBusFader" id="{407a1108-b36b-439e-9e20-e42420fbb63f}" />
 	<object class="AutomationCurve" id="{c8fd20a9-59fc-4fa6-97b6-9d03d045c64a}">
 		<relationship name="parameter">
