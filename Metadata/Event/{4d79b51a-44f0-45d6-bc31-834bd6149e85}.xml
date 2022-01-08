@@ -233,7 +233,7 @@
 			<value>100</value>
 		</property>
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-80</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -366,6 +366,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4f34e27c-fa20-4308-aa3f-d091fe6427c2}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
 			<value>Spice</value>
 		</property>
