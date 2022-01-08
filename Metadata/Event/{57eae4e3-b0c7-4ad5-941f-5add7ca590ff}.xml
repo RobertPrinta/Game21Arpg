@@ -5,7 +5,7 @@
 			<value>KeyPickup</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cb6082ab-0a14-41f8-bd79-10de03101679}</destination>
@@ -84,6 +84,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d986f83a-c650-4cb4-898a-245fadcaae25}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{69c0b532-e85b-49c1-a7ad-c5b37c075300}</destination>
 		</relationship>
@@ -123,7 +126,6 @@
 		<relationship name="effects">
 			<destination>{669379f1-ab5c-4cf9-9290-0f16f195c8b3}</destination>
 			<destination>{021ebdc6-cf96-4a4d-b712-3cc811311a5b}</destination>
-			<destination>{81597b5d-4f42-45b6-aba9-c9bd02bcfcb2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{82dd1fe2-c761-49c7-9b82-797347e627ad}" />
@@ -146,12 +148,13 @@
 		<property name="boost">
 			<value>7.4000001</value>
 		</property>
-	</object>
-	<object class="MixerBusFader" id="{021ebdc6-cf96-4a4d-b712-3cc811311a5b}" />
-	<object class="SpatialiserEffect" id="{81597b5d-4f42-45b6-aba9-c9bd02bcfcb2}">
-		<property name="maximumDistance">
-			<value>5</value>
+		<property name="ceiling">
+			<value>-9.5</value>
+		</property>
+		<property name="release">
+			<value>34</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{021ebdc6-cf96-4a4d-b712-3cc811311a5b}" />
 	<object class="MixerBusFader" id="{72f8a90d-1574-4108-aae0-9d679b49bdc0}" />
 </objects>

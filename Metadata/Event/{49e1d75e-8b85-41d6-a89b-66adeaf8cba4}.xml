@@ -140,6 +140,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{489e90d2-f896-49fa-9bfa-a36232501d0a}">
 		<relationship name="effects">
+			<destination>{1aa01128-4e3d-4a7a-a3e4-967758a0f492}</destination>
 			<destination>{5ba83b2b-3ea6-4846-be8b-434d09f545d0}</destination>
 			<destination>{6a69d39a-3fb7-4291-b82a-aaff386f0396}</destination>
 			<destination>{cf9fa2db-b4a6-40c8-9506-1ef58442d1f9}</destination>
@@ -148,9 +149,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{af0665d4-ddb4-4ef6-b7f0-cf2e9d696979}" />
 	<object class="MultiSound" id="{4dbe9fcf-834d-4d44-ab3d-e6b525508e93}">
-		<property name="volume">
-			<value>8.5</value>
-		</property>
 		<property name="pitch">
 			<value>-1.20000005</value>
 		</property>
@@ -189,6 +187,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5dff0a25-8b1d-487d-bdb7-dc3e81f1e259}" />
+	<object class="CompressorEffect" id="{1aa01128-4e3d-4a7a-a3e4-967758a0f492}">
+		<property name="threshold">
+			<value>-33</value>
+		</property>
+	</object>
 	<object class="ChorusEffect" id="{5ba83b2b-3ea6-4846-be8b-434d09f545d0}">
 		<property name="rate">
 			<value>0.049999997</value>
@@ -202,13 +205,19 @@
 	</object>
 	<object class="ThreeEQEffect" id="{6a69d39a-3fb7-4291-b82a-aaff386f0396}">
 		<property name="lowGain">
-			<value>8.5</value>
+			<value>3.5</value>
+		</property>
+		<property name="midGain">
+			<value>-4.5</value>
+		</property>
+		<property name="highGain">
+			<value>-20.5</value>
 		</property>
 		<property name="lowCrossover">
-			<value>50</value>
+			<value>500</value>
 		</property>
 		<property name="highCrossover">
-			<value>2500</value>
+			<value>2000</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{cf9fa2db-b4a6-40c8-9506-1ef58442d1f9}" />
