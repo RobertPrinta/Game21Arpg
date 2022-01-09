@@ -5,7 +5,7 @@
 			<value>BossCircles</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f41a6318-b5d5-41b1-97c0-1a0aaaba5d88}</destination>
@@ -253,7 +253,6 @@
 		<relationship name="effects">
 			<destination>{323719d8-42b4-41ea-abff-3ab84e37ad2a}</destination>
 			<destination>{68ae183a-cfe3-4b27-9337-768e264220a5}</destination>
-			<destination>{7c9bcb5a-a765-4cb2-a440-849f7accc387}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{039bfed0-c051-499d-973c-11da8cda3fc7}" />
@@ -340,7 +339,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{68ae183a-cfe3-4b27-9337-768e264220a5}" />
-	<object class="SpatialiserEffect" id="{7c9bcb5a-a765-4cb2-a440-849f7accc387}" />
 	<object class="ThreeEQEffect" id="{ffd1ef80-da40-44d0-8f7c-9b4f82cedc6b}">
 		<property name="lowGain">
 			<value>-80</value>

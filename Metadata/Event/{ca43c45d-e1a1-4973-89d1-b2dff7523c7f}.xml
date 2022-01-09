@@ -5,7 +5,7 @@
 			<value>BossLightning</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f41a6318-b5d5-41b1-97c0-1a0aaaba5d88}</destination>
@@ -148,7 +148,6 @@
 	<object class="MixerBusEffectChain" id="{512fd084-9253-431b-a472-f63b750edc22}">
 		<relationship name="effects">
 			<destination>{04c5b1c0-2fc3-4cac-bfd1-9520c9d8352c}</destination>
-			<destination>{7819504e-98a0-47ff-a4e3-4dad1a593a18}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b0b92f57-d094-4886-b434-cfea32c672a9}" />
@@ -172,7 +171,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{60a14053-d832-4c29-a2d7-629a48445769}" />
 	<object class="MixerBusFader" id="{04c5b1c0-2fc3-4cac-bfd1-9520c9d8352c}" />
-	<object class="SpatialiserEffect" id="{7819504e-98a0-47ff-a4e3-4dad1a593a18}" />
 	<object class="AutomationCurve" id="{a548153a-4674-4907-9e39-3cca99f13fe2}">
 		<relationship name="parameter">
 			<destination>{552a3ef6-ec30-4a9a-9d35-6044d0373f49}</destination>
