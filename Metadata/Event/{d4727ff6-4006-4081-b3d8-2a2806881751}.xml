@@ -5,7 +5,7 @@
 			<value>Mumbel Loop</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{030f5c60-616d-4886-854c-f09de29b7865}</destination>
@@ -127,7 +127,6 @@
 			<destination>{0813526c-60ad-4966-aeb2-9bf69b0d39af}</destination>
 			<destination>{01310faa-6ebc-4395-8d07-9922528f1524}</destination>
 			<destination>{68c372f6-b4df-4dc8-a022-39db4b2a6127}</destination>
-			<destination>{e1e012bd-f6f0-421a-8f20-41118dcd7273}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{af43ec8e-31f0-49db-8b7d-ad3706426038}" />
@@ -154,7 +153,10 @@
 			<value>4</value>
 		</property>
 		<property name="frequencyA">
-			<value>230</value>
+			<value>456.834198</value>
+		</property>
+		<property name="qualityA">
+			<value>0.775642395</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{01310faa-6ebc-4395-8d07-9922528f1524}">
@@ -165,17 +167,12 @@
 			<value>49.5</value>
 		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>-22</value>
 		</property>
 		<property name="dryLevel">
 			<value>3</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{68c372f6-b4df-4dc8-a022-39db4b2a6127}" />
-	<object class="SpatialiserEffect" id="{e1e012bd-f6f0-421a-8f20-41118dcd7273}">
-		<property name="maximumDistance">
-			<value>5.5999999</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{a6cb86fb-b77c-46f5-a46f-85b150f9ae29}" />
 </objects>
