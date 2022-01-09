@@ -167,6 +167,7 @@
 			<destination>{81e043ad-0e11-4f37-93b8-295e625e7907}</destination>
 			<destination>{64aff1a3-0186-496e-bc06-980c4ef91857}</destination>
 			<destination>{d76f8a43-f744-41ca-98c7-e6b8c6ac139d}</destination>
+			<destination>{0915f56d-a727-4919-9d33-ad2392443904}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{60a14053-d832-4c29-a2d7-629a48445769}" />
@@ -192,6 +193,8 @@
 			<destination>{41a23aa7-8088-41b9-a6b8-327764e23a45}</destination>
 			<destination>{35f9ec7b-c2ba-47c7-bbd2-d2f4eacfeef6}</destination>
 			<destination>{9d13eab1-1cc1-46ac-97eb-89ae589199fc}</destination>
+			<destination>{1f2f1e91-fb9b-4b4d-bc2c-61c29863119b}</destination>
+			<destination>{b2e7b05e-b8f1-484e-a722-f9cf95c7a323}</destination>
 		</relationship>
 	</object>
 	<object class="DelayEffect" id="{0fe201db-bad7-47ce-a87e-c4039a9a74ee}">
@@ -230,6 +233,11 @@
 			<destination>{5aed9e07-c811-4e9b-a8fd-b2ee669de8af}</destination>
 			<destination>{ffba96a0-453c-422b-88fe-732b1b173aee}</destination>
 		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{0915f56d-a727-4919-9d33-ad2392443904}">
+		<property name="threshold">
+			<value>-10.5</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{950ab9e6-d974-4c68-800f-00b4b11c6666}">
 		<property name="position">
@@ -349,6 +357,22 @@
 		</property>
 		<property name="value">
 			<value>-1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1f2f1e91-fb9b-4b4d-bc2c-61c29863119b}">
+		<property name="position">
+			<value>8.0698275862068964</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b2e7b05e-b8f1-484e-a722-f9cf95c7a323}">
+		<property name="position">
+			<value>9.8769704433497534</value>
+		</property>
+		<property name="value">
+			<value>7</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{36fd596c-fe2b-4247-808d-c1c1d3193130}">
