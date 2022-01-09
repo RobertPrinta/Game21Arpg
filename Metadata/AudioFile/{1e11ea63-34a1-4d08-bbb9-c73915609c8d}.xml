@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1e11ea63-34a1-4d08-bbb9-c73915609c8d}">
 		<property name="assetPath">
-			<value>DM2_VOX_ECHO.wav</value>
+			<value>Boss/DM2_VOX_ECHO.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
