@@ -118,6 +118,7 @@
 	<object class="MixerBusEffectChain" id="{e086299a-2037-44ae-b03e-83f67cc31d79}">
 		<relationship name="effects">
 			<destination>{b7a9d9c6-9a53-4ed5-a37a-84ec10fa72b2}</destination>
+			<destination>{f7770e7d-c6de-4ae9-b991-9465f1941b69}</destination>
 			<destination>{5c1c85a5-ded1-4f6a-a583-4a3072e0ae2a}</destination>
 			<destination>{c3d24cf7-7102-4225-89e0-89ef1047ab5e}</destination>
 		</relationship>
@@ -155,6 +156,17 @@
 			<value>-9.52329445</value>
 		</property>
 	</object>
+	<object class="ChorusEffect" id="{f7770e7d-c6de-4ae9-b991-9465f1941b69}">
+		<property name="rate">
+			<value>0.439999998</value>
+		</property>
+		<property name="depth">
+			<value>7.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{99adc15c-a41e-4f19-814c-28cbe6ed2b7e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{5c1c85a5-ded1-4f6a-a583-4a3072e0ae2a}" />
 	<object class="SpatialiserEffect" id="{c3d24cf7-7102-4225-89e0-89ef1047ab5e}" />
 	<object class="RandomizerModulator" id="{111b6cdd-d744-48d5-96af-8664b6b39632}">
@@ -166,4 +178,12 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{ba3854fb-2b17-45eb-a0fc-687d71617a52}" />
+	<object class="RandomizerModulator" id="{99adc15c-a41e-4f19-814c-28cbe6ed2b7e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>depth</value>
+		</property>
+		<property name="amount">
+			<value>12</value>
+		</property>
+	</object>
 </objects>

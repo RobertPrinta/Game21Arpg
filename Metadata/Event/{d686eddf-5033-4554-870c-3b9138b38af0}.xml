@@ -120,13 +120,13 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{5168a126-5f8e-46d3-b2b5-31771121cf5e}">
 		<relationship name="effects">
+			<destination>{f706557e-598a-4ac4-ad50-02318ba1e50e}</destination>
 			<destination>{1ef2cd87-ef59-440b-beb6-3995be3def5f}</destination>
 			<destination>{7e73596a-764a-4e4f-84e4-deb1e960ac3a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fbb0e2dd-6678-4c58-8acb-d5f126e6cbc1}" />
 	<object class="MultiSound" id="{05e61812-124c-4139-8106-cba1bd138144}">
-		<property name="name" />
 		<relationship name="modulators">
 			<destination>{586ad67b-2ea3-4789-87e3-4e1807fdb575}</destination>
 		</relationship>
@@ -180,6 +180,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4615c71c-abd3-4226-b39a-7b63c4b18f42}" />
+	<object class="SFXReverbEffect" id="{f706557e-598a-4ac4-ad50-02318ba1e50e}">
+		<property name="decayTime">
+			<value>950</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>24</value>
+		</property>
+		<property name="wetLevel">
+			<value>-13.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{8745864c-bf9d-4015-b17d-a55fca890f7a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{1ef2cd87-ef59-440b-beb6-3995be3def5f}" />
 	<object class="CompressorEffect" id="{7e73596a-764a-4e4f-84e4-deb1e960ac3a}">
 		<property name="threshold">
@@ -428,4 +442,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c27b02e2-229a-419d-a1f4-16566be75eb3}" />
+	<object class="RandomizerModulator" id="{8745864c-bf9d-4015-b17d-a55fca890f7a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>wetLevel</value>
+		</property>
+		<property name="amount">
+			<value>63.5</value>
+		</property>
+	</object>
 </objects>

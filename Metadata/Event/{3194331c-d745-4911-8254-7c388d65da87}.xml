@@ -117,6 +117,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{7fa4c6be-1c85-4b97-8424-dcf69d084a70}">
 		<relationship name="effects">
+			<destination>{70e02d4c-6652-4f58-8fe4-a87304f0baad}</destination>
 			<destination>{f2dc1733-15f3-4d66-948b-37b1d6255dfb}</destination>
 			<destination>{dd76ea6b-43cd-4a2b-82e8-172d4b19e56b}</destination>
 		</relationship>
@@ -139,6 +140,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{158af7db-7fb3-4c69-9bb7-0c750a984e95}" />
+	<object class="ChorusEffect" id="{70e02d4c-6652-4f58-8fe4-a87304f0baad}">
+		<property name="rate">
+			<value>0.0799999982</value>
+		</property>
+		<property name="depth">
+			<value>8</value>
+		</property>
+		<property name="mix">
+			<value>41.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f2dc1733-15f3-4d66-948b-37b1d6255dfb}" />
 	<object class="CompressorEffect" id="{dd76ea6b-43cd-4a2b-82e8-172d4b19e56b}">
 		<property name="threshold">

@@ -72,6 +72,7 @@
 			<destination>{b87cd089-c2e8-4c95-bf6f-19b877b99fdf}</destination>
 			<destination>{1934dff5-5a18-4e9b-9161-327d50a93b29}</destination>
 			<destination>{9d329be3-d33b-4563-b57d-27908b7c16ef}</destination>
+			<destination>{0d8a1dec-e556-44d4-b7d7-9e3897eec7ae}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{9076e8dc-0349-4fa8-a958-f3338ae29677}</destination>
@@ -157,6 +158,11 @@
 	<object class="AutomationTrack" id="{9d329be3-d33b-4563-b57d-27908b7c16ef}">
 		<relationship name="automator">
 			<destination>{d3de33dd-f446-4a55-9a31-87dbe3ae65cf}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{0d8a1dec-e556-44d4-b7d7-9e3897eec7ae}">
+		<relationship name="automator">
+			<destination>{33215a5a-d02a-4fa8-bce9-29b2b8807860}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{9076e8dc-0349-4fa8-a958-f3338ae29677}">
@@ -295,7 +301,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>2</value>
+			<value>5.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{d4fe1080-f26f-4510-b75b-50a27747b70c}">
@@ -324,6 +330,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{658248a4-9be6-44c1-a835-5ae372f17020}">
 		<relationship name="effects">
+			<destination>{050506a7-9320-4a5d-8a9a-e9787389afc1}</destination>
 			<destination>{06e69bd4-38aa-4456-a365-050c5163c8e5}</destination>
 			<destination>{8e8f5da6-aa42-443b-bec7-d72c3c760ae8}</destination>
 		</relationship>
@@ -396,6 +403,27 @@
 			<destination>{7c26b704-118a-4162-abc6-7af2f442982a}</destination>
 		</relationship>
 	</object>
+	<object class="PitchShifterEffect" id="{050506a7-9320-4a5d-8a9a-e9787389afc1}">
+		<property name="pitch">
+			<value>0.659999967</value>
+		</property>
+		<property name="fftSize">
+			<value>1360</value>
+		</property>
+		<property name="overlap">
+			<value>1</value>
+		</property>
+		<property name="maxChannels">
+			<value>5.20000029</value>
+		</property>
+		<relationship name="automators">
+			<destination>{33215a5a-d02a-4fa8-bce9-29b2b8807860}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{0fc213ff-73aa-4b70-9335-298b0bf18a39}</destination>
+			<destination>{4b5d44bc-ad8f-45b0-a180-56200eff2d1a}</destination>
+		</relationship>
+	</object>
 	<object class="SFXReverbEffect" id="{06e69bd4-38aa-4456-a365-050c5163c8e5}">
 		<property name="decayTime">
 			<value>4000</value>
@@ -406,11 +434,20 @@
 		<property name="lateDelay">
 			<value>69</value>
 		</property>
+		<property name="highCut">
+			<value>3400</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>55</value>
+		</property>
 		<property name="wetLevel">
 			<value>-80</value>
 		</property>
 		<relationship name="automators">
 			<destination>{c05d1a77-d2f8-4f70-abf6-ff9b2c23377f}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{537ce6bf-5fb3-44fc-938b-8b2cfbe88ea0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{8e8f5da6-aa42-443b-bec7-d72c3c760ae8}" />
@@ -440,6 +477,27 @@
 			<value>-80</value>
 		</property>
 	</object>
+	<object class="Automator" id="{33215a5a-d02a-4fa8-bce9-29b2b8807860}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>fftSize</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{0fc213ff-73aa-4b70-9335-298b0bf18a39}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>42</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{4b5d44bc-ad8f-45b0-a180-56200eff2d1a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>fftSize</value>
+		</property>
+		<property name="amount">
+			<value>36.5</value>
+		</property>
+	</object>
 	<object class="Automator" id="{c05d1a77-d2f8-4f70-abf6-ff9b2c23377f}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>wetLevel</value>
@@ -447,6 +505,17 @@
 		<relationship name="automationCurves">
 			<destination>{388bb513-a387-4421-80e7-118685571a6e}</destination>
 		</relationship>
+	</object>
+	<object class="LFOModulator" id="{537ce6bf-5fb3-44fc-938b-8b2cfbe88ea0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>earlyLateMix</value>
+		</property>
+		<property name="rate">
+			<value>0.0399999991</value>
+		</property>
+		<property name="depth">
+			<value>13.5</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{bda03a53-a011-4343-ab95-3bd90b2e5b8a}">
 		<property name="position">

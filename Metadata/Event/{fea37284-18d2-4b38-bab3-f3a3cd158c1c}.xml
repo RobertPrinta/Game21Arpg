@@ -118,6 +118,7 @@
 	<object class="MixerBusEffectChain" id="{ea2083cb-4867-4c2c-b7bb-8d9962bed5f3}">
 		<relationship name="effects">
 			<destination>{5f2e5e7e-4aaf-4bd8-896f-48f9d89427dd}</destination>
+			<destination>{f84e256a-5e71-480a-a586-6f9c6bc03cbb}</destination>
 			<destination>{1491b74b-49c6-4b56-926b-4dbf613d7568}</destination>
 			<destination>{c0efb990-46f0-4b2c-91ec-c196433d58cd}</destination>
 		</relationship>
@@ -146,10 +147,41 @@
 			<value>-80</value>
 		</property>
 		<property name="lowCrossover">
-			<value>460</value>
+			<value>320</value>
 		</property>
+	</object>
+	<object class="TremoloEffect" id="{f84e256a-5e71-480a-a586-6f9c6bc03cbb}">
+		<property name="frequency">
+			<value>0.419999987</value>
+		</property>
+		<property name="depth">
+			<value>0.599999964</value>
+		</property>
+		<property name="shape">
+			<value>0.229999989</value>
+		</property>
+		<property name="skew">
+			<value>0.299999982</value>
+		</property>
+		<property name="square">
+			<value>0.144999996</value>
+		</property>
+		<property name="spread">
+			<value>0.239999995</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{94efbbcb-36cf-455c-af27-4cdeb6c7fb96}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1491b74b-49c6-4b56-926b-4dbf613d7568}" />
 	<object class="SpatialiserEffect" id="{c0efb990-46f0-4b2c-91ec-c196433d58cd}" />
 	<object class="MixerBusFader" id="{4b32c685-e105-41cc-a729-385460eb6055}" />
+	<object class="RandomizerModulator" id="{94efbbcb-36cf-455c-af27-4cdeb6c7fb96}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>depth</value>
+		</property>
+		<property name="amount">
+			<value>28</value>
+		</property>
+	</object>
 </objects>
