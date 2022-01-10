@@ -194,10 +194,10 @@
 	</object>
 	<object class="ChorusEffect" id="{5ba83b2b-3ea6-4846-be8b-434d09f545d0}">
 		<property name="rate">
-			<value>0.049999997</value>
+			<value>0.239999995</value>
 		</property>
 		<property name="depth">
-			<value>29.5</value>
+			<value>37</value>
 		</property>
 		<property name="mix">
 			<value>77</value>
@@ -208,13 +208,13 @@
 			<value>3.5</value>
 		</property>
 		<property name="midGain">
-			<value>-4.5</value>
+			<value>-4</value>
 		</property>
 		<property name="highGain">
 			<value>-20.5</value>
 		</property>
 		<property name="lowCrossover">
-			<value>500</value>
+			<value>640</value>
 		</property>
 		<property name="highCrossover">
 			<value>2000</value>

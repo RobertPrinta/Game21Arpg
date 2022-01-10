@@ -233,7 +233,7 @@
 			<value>100</value>
 		</property>
 		<property name="volume">
-			<value>-80</value>
+			<value>-10.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -293,7 +293,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6bfa3d06-9f56-4789-9187-1bad0d16023e}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-0.5</value>
 		</property>
 		<property name="name">
 			<value>Hi</value>
@@ -526,6 +526,7 @@
 		<relationship name="effects">
 			<destination>{d4270c08-032b-42de-80db-fa49467f6969}</destination>
 			<destination>{6c0544a3-503b-4c1b-8077-a17b71503042}</destination>
+			<destination>{2a83d020-ea66-4987-b8e7-aa80fec7743a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d8efd043-310e-430f-ba70-0ad15946279d}" />
@@ -632,6 +633,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6c0544a3-503b-4c1b-8077-a17b71503042}" />
+	<object class="ChorusEffect" id="{2a83d020-ea66-4987-b8e7-aa80fec7743a}">
+		<property name="rate">
+			<value>2.70000005</value>
+		</property>
+		<property name="depth">
+			<value>17</value>
+		</property>
+		<property name="mix">
+			<value>55</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{23cfe9d9-a0d7-4102-b8db-57e688f78c3b}" />
 	<object class="FlangerEffect" id="{618e69e5-13fc-4357-8414-bda2988c8b88}">
 		<property name="rate">
@@ -689,7 +701,7 @@
 			<value>0.57471264367816088</value>
 		</property>
 		<property name="value">
-			<value>-2</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>0.0185894314</value>
@@ -700,7 +712,7 @@
 			<value>50</value>
 		</property>
 		<property name="value">
-			<value>-9</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="Automator" id="{a289ab44-1202-4dbd-8180-bc71430af4d3}">

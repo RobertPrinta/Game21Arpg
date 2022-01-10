@@ -123,6 +123,7 @@
 	<object class="MixerBusEffectChain" id="{6f06b9cb-605d-4509-99aa-86df590433e6}">
 		<relationship name="effects">
 			<destination>{c2fb1cb4-ffaf-4b40-bc94-7e8b39b4bb42}</destination>
+			<destination>{8189613b-cb1d-43f0-8149-b817079995ab}</destination>
 			<destination>{bd901431-59a7-45da-a865-4114f73a054d}</destination>
 			<destination>{01524adb-8e9f-452d-a08f-ecbf638d6ad6}</destination>
 		</relationship>
@@ -132,6 +133,14 @@
 	<object class="ChorusEffect" id="{c2fb1cb4-ffaf-4b40-bc94-7e8b39b4bb42}">
 		<property name="rate">
 			<value>0.0199999996</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{8189613b-cb1d-43f0-8149-b817079995ab}">
+		<property name="delay">
+			<value>0.159999996</value>
+		</property>
+		<property name="mix">
+			<value>30</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{bd901431-59a7-45da-a865-4114f73a054d}" />
@@ -145,10 +154,10 @@
 			<value>stereoPan</value>
 		</property>
 		<property name="rate">
-			<value>0.049999997</value>
+			<value>0.379999995</value>
 		</property>
 		<property name="depth">
-			<value>16</value>
+			<value>35</value>
 		</property>
 	</object>
 </objects>

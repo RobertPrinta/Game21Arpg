@@ -145,16 +145,16 @@
 			<value>0.0799999982</value>
 		</property>
 		<property name="depth">
-			<value>8</value>
+			<value>14.5</value>
 		</property>
 		<property name="mix">
-			<value>41.5</value>
+			<value>53.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f2dc1733-15f3-4d66-948b-37b1d6255dfb}" />
 	<object class="CompressorEffect" id="{dd76ea6b-43cd-4a2b-82e8-172d4b19e56b}">
 		<property name="threshold">
-			<value>-27.5</value>
+			<value>-25</value>
 		</property>
 		<property name="attackTime">
 			<value>8.60000038</value>

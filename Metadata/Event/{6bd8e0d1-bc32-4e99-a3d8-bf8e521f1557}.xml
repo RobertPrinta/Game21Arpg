@@ -81,7 +81,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{77edc2f4-e77f-4a60-b7e8-10aaa6bfb06e}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f74c045c-2ece-49b4-8aab-c47fdd5a0294}</destination>
@@ -120,6 +120,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f74c045c-2ece-49b4-8aab-c47fdd5a0294}">
 		<relationship name="effects">
+			<destination>{5ccfedbc-c87a-4d68-9c93-0e7986dc6b5d}</destination>
 			<destination>{beff4f86-1732-4d39-903a-d181316fa26e}</destination>
 		</relationship>
 	</object>
@@ -142,6 +143,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a79b5359-f3e4-4e09-905b-cc108499149c}" />
+	<object class="DelayEffect" id="{5ccfedbc-c87a-4d68-9c93-0e7986dc6b5d}">
+		<property name="delay">
+			<value>46</value>
+		</property>
+		<property name="feedback">
+			<value>63.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{38eb6a00-d88d-4cd8-a23a-24ff3f968c6d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{beff4f86-1732-4d39-903a-d181316fa26e}" />
 	<object class="RandomizerModulator" id="{ba538226-163d-4eec-87b8-a7e20a5276f6}">
 		<property name="nameOfPropertyBeingModulated">
@@ -152,4 +164,12 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{ef7a2c38-7c0d-4209-8cc7-d015caa32bd5}" />
+	<object class="RandomizerModulator" id="{38eb6a00-d88d-4cd8-a23a-24ff3f968c6d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>level</value>
+		</property>
+		<property name="amount">
+			<value>80</value>
+		</property>
+	</object>
 </objects>
