@@ -27,7 +27,7 @@
 	</object>
 	<object class="LimiterEffect" id="{d2c56308-c2e5-410d-872e-14a41437b106}">
 		<property name="ceiling">
-			<value>-4</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b9ffe6f7-7928-48ba-912a-b3e8bbfdf83c}" />
